@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from fileupload_app import views   # Importing views form fileupload_app
+from fileuplode_app import views   # Importing views form fileupload_app
 
 #Define url patterns for Django application
 urlpatterns = [

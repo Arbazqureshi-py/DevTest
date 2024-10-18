@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-6w=z@oi4b-2&4t_95rq5^5%^2^%1$@%=@7d%v92xtukyeri!xl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'fileupload_app',    # app added 
+    'fileuplode_app',    # app added 
 ]
 
 MIDDLEWARE = [
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'DevTest.urls'
+ROOT_URLCONF = 'devtest.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'DevTest.wsgi.application'
+WSGI_APPLICATION = 'devtest.wsgi.application'
 
 
 # Database
