@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from .forms import FileUploadForm
-import pandas as pd
+import pandas as pd 
 # Create your views here.
 def upload_file(request):
     if request.method == 'POST':
